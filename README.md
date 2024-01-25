@@ -12,3 +12,8 @@ The decision tree algorithm was used for this project
 <br>
 Technologies which used:
 *   Pandas
+*   Numpy
+*   scikit learn
+*   flask
+*   subprocces
+*   
