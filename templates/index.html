@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Python Function Runner</title>
+</head>
+<body>
+    <div id="app">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="marital">marital:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="education">education:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="balance">balance:</label>
+        <input type="number" id="job" name="job" required>
+
+        <label for="housing">housing:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="loan">loan:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="contact">contact:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="day">day:</label>
+        <input type="number" id="job" name="job" required>
+
+        <label for="month">month:</label>
+        <input type="text" id="job" name="job" required>
+
+        <label for="duration">duration:</label>
+        <input type="number" id="job" name="job" required>
+
+
+        <button onclick="runFunction()">Run Function</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
