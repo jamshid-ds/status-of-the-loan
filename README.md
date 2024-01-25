@@ -16,4 +16,3 @@ Technologies which used:
 *   scikit learn
 *   flask
 *   subprocces
-*   
