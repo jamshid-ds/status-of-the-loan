@@ -1,2 +1,2 @@
 # status-of-the-loan
-First deployed project.
+Deployed Machine Learning project #1
